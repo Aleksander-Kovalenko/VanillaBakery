@@ -4,12 +4,18 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './card';
 
-header {
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 50vh;
-}
+@import './container';
+@import './card';
+@import './fonts';
+@import './logo';
+@import './header';
+@import './menu-nav';
+@import './flex';
+// header {
+//   background-image: url(../images/banner.jpg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   min-height: 50vh;
+// }
